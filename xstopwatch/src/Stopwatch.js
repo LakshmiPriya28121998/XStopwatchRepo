@@ -45,7 +45,7 @@ export default function Stopwatch() {
                 <h2>Stopwatch</h2>
                 <h4>Time : {formatTime(timeron)}</h4>
                 <button onClick={handleStart}>
-                {timeronflag ? 'stop' : 'start'}
+                {timeronflag ? 'Stop' : 'Start'}
                     
                     </button>
                 <button onClick={handleReset}>Reset</button>
